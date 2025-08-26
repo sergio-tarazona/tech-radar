@@ -10,7 +10,7 @@
   <h1>Whitestack Technology Radar</h1>
   <svg id="radar"></svg>
   <script>
-  fetch('./config.json').then(function(response) {
+  fetch('radar.json').then(function(response) {
     return response.json();
   }).then(function(data) {
     radar_visualization({
