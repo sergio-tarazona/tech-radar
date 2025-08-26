@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Whitestack Technology Radar</title>
+  <script src="https://zalando.github.io/tech-radar/release/radar-0.8.js"></script>
+</head>
+<body>
+  <h1>Whitestack Technology Radar</h1>
+  <svg id="radar"></svg>
+  <script>
+    fetch("radar.json")
+      .then(response => response.json())
+      .then(data => {
+        radar_visualization({
+          svg_id: "radar",
+          width: 1450,
+          height: 1000,
+          colors: {
+            background: "#fff",
+            grid: "#ddd",
+            inactive: "#ddd"
+          },
+          quadrants: data.quadrants,
+          rings: data.rings,
+          entries: data.entries
+        });
+      });
+  </script>
+</body>
+</html>

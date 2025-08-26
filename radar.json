@@ -1,0 +1,477 @@
+{
+  "quadrants": [
+    {
+      "name": "Techniques"
+    },
+    {
+      "name": "Tools"
+    },
+    {
+      "name": "Platforms"
+    },
+    {
+      "name": "Languages & Frameworks"
+    }
+  ],
+  "rings": [
+    {
+      "name": "Adopt",
+      "color": "#93c47d"
+    },
+    {
+      "name": "Trial",
+      "color": "#93d2c2"
+    },
+    {
+      "name": "Assess",
+      "color": "#fbdb84"
+    },
+    {
+      "name": "Hold",
+      "color": "#efafa9"
+    }
+  ],
+  "entries": [
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "OpenStack",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Kubernetes",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "Ceph",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "K3s (Edge Kubernetes)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "KubeVirt",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Knative (Serverless on K8s)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Harbor (OCI Registry)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "Kata Containers",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "Submariner (Multi-cluster networking)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 2,
+      "label": "Confidential Computing (SEV/TDX)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 0,
+      "label": "CoreDNS",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "MetalLB",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 2,
+      "ring": 1,
+      "label": "Rook (Storage Orchestrator)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Terraform",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Ansible",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Helm",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Kustomize",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Argo CD (GitOps)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Flux (GitOps)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Tekton (CI/CD on K8s)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Prometheus",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Thanos (Prometheus at scale)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Grafana",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Loki (Logging)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Tempo (Tracing)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Jaeger (Tracing)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "OpenTelemetry",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "VictoriaMetrics",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "NGINX Ingress Controller",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Envoy Gateway",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Cilium (eBPF CNI)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Calico (CNI)",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Istio (Service Mesh)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Linkerd (Service Mesh)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "cert-manager",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 0,
+      "label": "Vault (Secrets Management)",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Kyverno (Policy as Code)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "OPA Gatekeeper",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Falco (Runtime Security)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Trivy (Image Scanning)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Sigstore / Cosign (Signing)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "SLSA Framework / SBOM (Syft/Grype)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "Crossplane (Infra as Code for K8s)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Pulumi",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 1,
+      "label": "KEDA (Event-driven autoscaling)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Keptn (AIOps)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "OpenCost (FinOps for K8s)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 1,
+      "ring": 2,
+      "label": "Kepler (eBPF energy / GreenOps)",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "GitOps",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Immutable Infrastructure",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Infrastructure as Code",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 0,
+      "label": "Zero Trust for Cloud",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label": "AIOps Practices",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label": "FinOps Practices",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 1,
+      "label": "GreenOps Practices",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "Multi-Cluster/Hybrid Federation",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 2,
+      "label": "Confidential Computing Patterns",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Docker-in-Docker Privileged Builds",
+      "active": true,
+      "moved": -1
+    },
+    {
+      "quadrant": 0,
+      "ring": 3,
+      "label": "Centralized Monolithic Logging Stacks for Everything",
+      "active": true,
+      "moved": -1
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Go",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Python",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Rust",
+      "active": true,
+      "moved": 1
+    },
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Kubebuilder / Operator SDK",
+      "active": true,
+      "moved": 1
+    }
+  ]
+}
