@@ -12,7 +12,7 @@ El radar se construyó siguiendo el modelo de **Zalando Tech Radar** y contiene 
 ## 🚀 Ver el Radar Online
 
 El radar está disponible en **GitHub Pages**:  
-👉 [https://TU_USUARIO.github.io/whitestack-tech-radar/](https://TU_USUARIO.github.io/whitestack-tech-radar/)
+👉 https://sergio-tarazona.github.io/tech-radar/
 
 ---
 
