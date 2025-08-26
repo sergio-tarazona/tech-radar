@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Whitestack Technology Radar</title>
-  <script src="https://zalando.github.io/tech-radar/release/radar-0.8.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://zalando.github.io/tech-radar/release/radar-0.12.js"></script>
 </head>
 <body>
   <h1>Whitestack Technology Radar</h1>
@@ -13,6 +14,7 @@
       .then(response => response.json())
       .then(data => {
         radar_visualization({
+          repo_url: "https://github.com/zalando/tech-radar",
           svg_id: "radar",
           width: 1450,
           height: 1000,
